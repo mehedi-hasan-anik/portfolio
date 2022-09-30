@@ -1,0 +1,24 @@
+.projects-full-area{
+   background: #F3FEFE;
+   font-family: 'Libre Baskerville', serif;
+}
+
+.inner-projects h2{
+    padding: 20px 0px;
+    color: #374B5C;
+    position: relative;
+    margin-bottom: 40px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.inner-projects h2::after{
+   
+    position: absolute;
+    content: '';
+    background: #00DBD0;
+    top: 90px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 3px;
+}

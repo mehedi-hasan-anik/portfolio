@@ -1,0 +1,51 @@
+.full-header-area{
+   background: #F4FEFE;
+   padding: 100px 0px 0px 40px;
+}
+.inner-full-header-area{
+
+}
+.header-left{
+
+}
+.header-left h1{
+  color: #374B5C;
+  font-size: 45px;
+  font-weight:700;
+  margin-bottom: 40px;
+  font-family:  'Libre Baskerville', serif;
+
+}
+.header-left h5{
+  margin-bottom: 40px;
+  color: #374B5C;
+  text-align:left;
+  font-family:  'Libre Baskerville', serif;
+  font-size: 18px;
+}
+.header-left a{
+    text-decoration: none;
+    background: #00DBD0;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.header-right{
+    margin: 0 auto;
+}
+.header-right img{
+    width: 100%;
+    padding: 0px 10px;
+ }
+
+
+ @media only screen and (max-width: 768px) {
+  .header-left{
+    padding-bottom: 50px;
+  }
+  .header-right img{
+    padding: 0;
+    margin: 0;
+ }
+}

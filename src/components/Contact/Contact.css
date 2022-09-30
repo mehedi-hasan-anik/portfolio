@@ -1,0 +1,78 @@
+.full-contact-area{
+    background: #F3FEFE;
+    font-family: 'Libre Baskerville', serif;
+    padding-bottom: 100px;
+}
+
+.inner-contact-area h2{
+    padding: 20px 0px;
+    color: #374B5C;
+    position: relative;
+    font-size: 45px;
+    font-weight: bold;
+}
+.inner-contact-area h2::after{
+    position: absolute;
+    content: '';
+    background: #00DBD0;
+    top: 90px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 3px;
+}
+.form-area{
+   padding: 30px;
+   padding-top: 50px;
+  
+}
+.inner-form-area{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.inner-form-area input{
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #00DBD0;
+}
+.inner-form-area textarea{
+    padding: 15px 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #00DBD0;
+}
+.phone-email-area{
+    margin: 0 auto;
+    text-align: center;
+}
+.phone-email-area h4{
+    font-size: 18px;
+}
+
+.follow-area{
+
+}
+.inner-follow-area{
+  max-width:300px;
+  width:100%;
+  margin:0 auto;
+}
+.inner-follow-area ul {
+    margin: 0;
+    padding: 0;
+}
+
+ .inner-follow-area ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.inner-follow-area ul li a{
+    font-size: 30px;
+    color: #00DBD0;
+}

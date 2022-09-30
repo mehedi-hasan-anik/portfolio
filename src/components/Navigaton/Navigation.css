@@ -1,0 +1,42 @@
+.full-nav-area{
+    background: #F3FEFE;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  .nav-full-area{
+   
+  }
+  .nav-full-area button{
+  
+   border: 1px solid #007ACC;
+  }
+  .nav-bar-icon{
+  
+  
+  }
+  .nav-full-area a{
+   color: #374B5C;
+  }
+  .navigation-area{
+    
+  }
+  .navigation-area ul{
+    
+  }
+  .navigation-area ul li{
+    
+  }
+  
+  .navigation-area ul li .nav-link{
+    font-size: 14px;
+    line-height: 21px;
+    padding: 10px 25px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: #374b5c;
+
+  }
+  .navigation-area ul li .nav-link:hover{
+    border: 1px solid #00DBD0;
+    border-radius: 10px;
+  }
